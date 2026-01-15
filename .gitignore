@@ -1,0 +1,71 @@
+# ==========================
+# PyCharm / JetBrains IDEs
+# ==========================
+
+# Project‑specific settings (do NOT commit!)
+.idea/
+*.iml
+# Settings for PyCharm’s Python interpreter
+venv/
+ENV/
+env/
+.venv/
+.env/
+
+# ==========================
+# Python byte‑code & caches
+# ==========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ==========================
+# Distribution / packaging
+# ==========================
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Lock files (optional, keep if you want reproducibility)
+#uv.lock
+#poetry.lock
+
+# ==========================
+# Miscellaneous
+# ==========================
+
+# Virtual envs created by conda, pipenv, poetry, etc.
+.conda/
+.pipenv/
+
+# OS‑specific files
+.DS_Store
+Thumbs.db
+
+# Log & temp files
+*.log
+tmp/
+temp/
+
+# Secret / config files (adjust to your own names)
+.env
+*.env
+
+# ==========================
+# Optional: ignore test data
+# ==========================
+
+# Test artefacts (e.g., coverage reports)
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# ==========================
+# End of .gitignore
