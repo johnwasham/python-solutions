@@ -23,3 +23,6 @@ def repeat_char_jump(input_string, k):
             break
 
     return ''.join(chars)
+
+print(repeat_char_jump("acbdefg", 3))
+# adgbfce
