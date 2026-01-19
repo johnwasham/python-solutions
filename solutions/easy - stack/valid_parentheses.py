@@ -51,3 +51,8 @@ class Solution:
                         return False
 
         return len(stack) == 0
+
+sol = Solution()
+assert sol.isValid("()") == True
+assert sol.isValid("()[]{}") == True
+assert sol.isValid("((]))") == False
