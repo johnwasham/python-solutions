@@ -15,7 +15,7 @@ def solution(n):
     mult = 11
     while n > 0:
         digit = n % 10
-        doubled = doubled + mult * digit
+        doubled += mult * digit
         mult *= 100
         n = n // 10
     return doubled
