@@ -5,6 +5,9 @@ pq = [82, 52, 2, 99, 8]
 heapq.heapify_max(pq)
 # heapq.heappush_max(pq, 3)
 
+print("max: " + str(max(2, 6)))
+print("abs: " + str((abs(6 - 4))))
+
 print(pq)
 
 print(max(pq[1], pq[2]))

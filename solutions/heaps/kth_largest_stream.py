@@ -54,3 +54,4 @@ class KthLargest:
         self.trim_to_k()
 
         return self.pq[0]
+
